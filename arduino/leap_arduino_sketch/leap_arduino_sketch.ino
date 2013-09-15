@@ -1,5 +1,12 @@
-// oc_sample_5.ino
-// 両側に取り付けた赤外線測距センサーに反応して行動する二輪ロボットのプログラム
+// leap_arduino_sketch.ino
+// シリアル通信のコマンドを受け取って行動する二輪ロボットのプログラム
+//   '5': 前進
+//   '2': 後退
+//   '0': 停止
+//   '6': 右旋回
+//   '7': 左旋回
+// モーター制御には Arduino 用のモータードライバシールド「Ardumoto」を用います。
+// 購入はこちら: http://www.switch-science.com/catalog/427/ 
 
 int pwm_a = 3;   //PWM control for motor outputs 1 and 2 is on digital pin 3
 int pwm_b = 11;  //PWM control for motor outputs 3 and 4 is on digital pin 11
