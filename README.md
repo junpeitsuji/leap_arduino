@@ -8,6 +8,7 @@ LEAP MOTION x Arduino Robot
 
 サーバーインストール・起動
 
+    python 2.7.5 をインストール
     $ cd leap_arduino
     $ npm install
     $ node app.js
