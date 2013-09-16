@@ -7,6 +7,7 @@ LEAP MOTION x Arduino Robot
 -----
 
 サーバーインストール・起動
+
     node 0.10.16 をインストール
     python 2.7.5 をインストール
     $ cd leap_arduino
